@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class trigerCollision : MonoBehaviour
 {
-    public static int cnt = 1000;
+    public static int cnt = 700;
     private void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.tag == "quest2")
